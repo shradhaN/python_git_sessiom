@@ -52,7 +52,7 @@ def index():
 @app.route('/add', methods=['GET', 'POST'])
 def add_people():
     """
-    add new people
+    Add new people
     """
     print('>' * 5, request.method)
     if request.method == "POST":
